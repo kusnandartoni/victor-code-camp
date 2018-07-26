@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'antd/dist/antd.css'; 
 import './App.css';
-
-import { Fabric } from 'office-ui-fabric-react/lib/Fabric';
-import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
+import Header from './components/Header';
+import Banner from './components/Banner';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Fabric>
-          <DefaultButton>
-            I am a button.
-          </DefaultButton>
-        </Fabric>
+      <div>
+        <Header />
+        <Banner />
       </div>
     );
   }
