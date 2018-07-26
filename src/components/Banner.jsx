@@ -6,7 +6,7 @@ class Banner extends Component {
     render() {
         return (
             <div>
-                <Jumbotron>
+                <Jumbotron className="page">
                     <h1 className="display-3 text-center">Hello, Anak Kos!</h1>
                     <p className="lead text-center">Jangan cuma jadi kupu-kupu (kuliah-pulang) yang ga tau tujuan, ayo sama-sama belajar ala anak kos</p>
                     <hr className="my-2" />
